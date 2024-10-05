@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ketabi", "Ketabi\Ketabi.csproj", "{265A2255-E7C9-408E-A386-6845D95FB204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ketabi.Infra", "Ketabi.Infra\Ketabi.Infra.csproj", "{3453235B-E788-4107-A0D1-41C6F798A657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ketabi.Core", "Ketabi.Core\Ketabi.Core.csproj", "{87AAB6EE-9788-4585-934B-17B230111FD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{265A2255-E7C9-408E-A386-6845D95FB204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265A2255-E7C9-408E-A386-6845D95FB204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265A2255-E7C9-408E-A386-6845D95FB204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265A2255-E7C9-408E-A386-6845D95FB204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3453235B-E788-4107-A0D1-41C6F798A657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3453235B-E788-4107-A0D1-41C6F798A657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3453235B-E788-4107-A0D1-41C6F798A657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3453235B-E788-4107-A0D1-41C6F798A657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AAB6EE-9788-4585-934B-17B230111FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AAB6EE-9788-4585-934B-17B230111FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AAB6EE-9788-4585-934B-17B230111FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AAB6EE-9788-4585-934B-17B230111FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {443F4A32-EFE3-4304-B4F5-4DEF656F160C}
+	EndGlobalSection
+EndGlobal
