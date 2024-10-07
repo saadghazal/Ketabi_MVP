@@ -127,7 +127,7 @@ namespace Ketabi.Infra.Repositories
             parameters.Add("phone", updatedLibrary.Phonenumber, DbType.String, ParameterDirection.Input);
             parameters.Add("img", updatedLibrary.Image, DbType.String, ParameterDirection.Input);
             parameters.Add("lng", updatedLibrary.Longitude, DbType.String, ParameterDirection.Input);
-            parameters.Add("lat", newLibrary.Latitude, DbType.String, ParameterDirection.Input);
+            parameters.Add("lat", updatedLibrary.Latitude, DbType.String, ParameterDirection.Input);
             return parameters;
         }
 

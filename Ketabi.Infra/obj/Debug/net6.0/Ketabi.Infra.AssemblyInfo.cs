@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ketabi.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce1e8ba7e5125725304e91aa5fa810a73ca5d3b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6755d7f4907f273c8f421cf2372e8e8f433aecb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ketabi.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ketabi.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
