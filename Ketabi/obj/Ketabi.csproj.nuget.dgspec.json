@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\Ketabi.csproj": {}
+    "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi\\Ketabi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj": {
+    "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Core\\Ketabi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Core\\Ketabi.Core.csproj",
         "projectName": "Ketabi.Core",
-        "projectPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj",
-        "packagesPath": "C:\\Users\\Mohammed Ghazal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\obj\\",
+        "projectPath": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Core\\Ketabi.Core.csproj",
+        "packagesPath": "C:\\Users\\DELL 1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mohammed Ghazal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -35,11 +35,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Ketabi.Infra.csproj": {
+    "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Infra\\Ketabi.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Ketabi.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Infra\\Ketabi.Infra.csproj",
         "projectName": "Ketabi.Infra",
-        "projectPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Ketabi.Infra.csproj",
-        "packagesPath": "C:\\Users\\Mohammed Ghazal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\obj\\",
+        "projectPath": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Infra\\Ketabi.Infra.csproj",
+        "packagesPath": "C:\\Users\\DELL 1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mohammed Ghazal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj": {
-                "projectPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj"
+              "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Core\\Ketabi.Core.csproj": {
+                "projectPath": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Core\\Ketabi.Core.csproj"
               }
             }
           }
@@ -106,11 +101,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -156,21 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\Ketabi.csproj": {
+    "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi\\Ketabi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\Ketabi.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi\\Ketabi.csproj",
         "projectName": "Ketabi",
-        "projectPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\Ketabi.csproj",
-        "packagesPath": "C:\\Users\\Mohammed Ghazal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\obj\\",
+        "projectPath": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi\\Ketabi.csproj",
+        "packagesPath": "C:\\Users\\DELL 1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mohammed Ghazal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -185,11 +175,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj": {
-                "projectPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj"
+              "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Core\\Ketabi.Core.csproj": {
+                "projectPath": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Core\\Ketabi.Core.csproj"
               },
-              "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Ketabi.Infra.csproj": {
-                "projectPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Ketabi.Infra.csproj"
+              "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Infra\\Ketabi.Infra.csproj": {
+                "projectPath": "C:\\Users\\DELL 1\\Desktop\\saadghazal\\Ketabi_MVP\\Ketabi.Infra\\Ketabi.Infra.csproj"
               }
             }
           }
@@ -198,11 +188,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -239,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

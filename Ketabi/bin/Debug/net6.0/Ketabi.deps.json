@@ -747,10 +747,7 @@
           "Oracle.EntityFrameworkCore": "6.21.90"
         },
         "runtime": {
-          "Ketabi.Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Ketabi.Core.dll": {}
         }
       },
       "Ketabi.Infra/1.0.0": {
@@ -762,10 +759,7 @@
           "Oracle.ManagedDataAccess.Core": "3.21.90"
         },
         "runtime": {
-          "Ketabi.Infra.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Ketabi.Infra.dll": {}
         }
       }
     }

@@ -751,10 +751,7 @@
           "Oracle.EntityFrameworkCore": "6.21.90"
         },
         "runtime": {
-          "Ketabi.Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Ketabi.Core.dll": {}
         }
       }
     }
