@@ -1,5 +1,9 @@
 using Ketabi.Core.Common;
+using Ketabi.Core.Repositories;
+using Ketabi.Core.Services;
 using Ketabi.Infra.Common;
+using Ketabi.Infra.Repositories;
+using Ketabi.Infra.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +16,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IDbContext, DbContext>();
+builder.Services.AddScoped<ILibraryRepository, LibraryRepository>();
+builder.Services.AddScoped<ILibraryService, LibraryService>();
 
 var app = builder.Build();
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ketabi.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5e4aed0ec6825c372e4b3887990b37aa9718413")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6755d7f4907f273c8f421cf2372e8e8f433aecb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ketabi.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ketabi.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
