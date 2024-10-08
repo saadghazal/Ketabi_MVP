@@ -1,5 +1,5 @@
 ﻿using Ketabi.Core.Data;
-using Ketabi.Core.Service;
+using Ketabi.Core.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
