@@ -13,7 +13,8 @@ namespace Ketabi.Infra.Services
     {
         private readonly ILibraryRepository _libraryRepository;
 
-        public LibraryService(ILibraryRepository libraryRepository) { 
+        public LibraryService(ILibraryRepository libraryRepository)
+        {
             _libraryRepository = libraryRepository;
         }
         public void CreateLibrary(Library newLibrary)
@@ -28,12 +29,12 @@ namespace Ketabi.Infra.Services
 
         public List<Library> GetAllLibraries()
         {
-          return _libraryRepository.GetAllLibraries();
+            return _libraryRepository.GetAllLibraries();
         }
 
         public Library GetLibraryById(int id)
         {
-          return  _libraryRepository.GetLibraryById(id);
+            return _libraryRepository.GetLibraryById(id);
         }
 
         public Library GetLibraryByLocation(string lat, string lng)

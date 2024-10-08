@@ -40,13 +40,15 @@ namespace Ketabi.Controllers
 
         [HttpGet]
         [Route("search-by-location")]
-        public Library GetLibraryByLocation([FromQuery] string lat, [FromQuery] string lng) { 
+        public Library GetLibraryByLocation([FromQuery] string lat, [FromQuery] string lng)
+        {
             return _libraryService.GetLibraryByLocation(lat, lng);
         }
 
         [HttpPost]
         [Route("add-library")]
-        public void CreateLibrary(Library library) { 
+        public void CreateLibrary(Library library)
+        {
             _libraryService.CreateLibrary(library);
         }
 
