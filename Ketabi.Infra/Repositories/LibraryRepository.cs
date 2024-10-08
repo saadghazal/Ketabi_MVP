@@ -84,7 +84,7 @@ namespace Ketabi.Infra.Repositories
         {
 
 
-            var queryStatement = "LibraryPackage.SearchLibraryByLocation";
+            var queryStatemen = "LibraryPackage.SearchLibraryByLocation";
 
             var requestedLibrary = _dbContext.Connection.
                 Query<Library>(queryStatement, PassLibraryLocation(lat, lng), commandType: CommandType.StoredProcedure).SingleOrDefault();
