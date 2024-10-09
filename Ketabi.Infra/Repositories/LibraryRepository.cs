@@ -16,22 +16,24 @@ namespace Ketabi.Infra.Repositories
     {
         private readonly IDbContext _dbContext;
 
-        public LibraryRepository(IDbContext dbContext) { 
-        
+        public LibraryRepository(IDbContext dbContext)
+        {
+
             _dbContext = dbContext;
         }
         public void CreateLibrary(Library newLibrary)
         {
-           
+
             var passedParameteres = PassCreateLibraryParameters(newLibrary);
             var creationStatement = "LibraryPackage.CreateLibrary";
             _dbContext.Connection.Execute(creationStatement, passedParameteres, commandType: CommandType.StoredProcedure);
 
         }
 
-        DynamicParameters PassCreateLibraryParameters(Library newLibrary) {
+        DynamicParameters PassCreateLibraryParameters(Library newLibrary)
+        {
             var parameters = new DynamicParameters();
-            parameters.Add("libraryName", newLibrary.Name,DbType.String,ParameterDirection.Input);
+            parameters.Add("libraryName", newLibrary.Name, DbType.String, ParameterDirection.Input);
             parameters.Add("libraryEmail", newLibrary.Email, DbType.String, ParameterDirection.Input);
             parameters.Add("phone", newLibrary.Phonenumber, DbType.String, ParameterDirection.Input);
             parameters.Add("img", newLibrary.Image, DbType.String, ParameterDirection.Input);
@@ -42,14 +44,15 @@ namespace Ketabi.Infra.Repositories
 
         public void DeleteLibrary(int libraryId)
         {
-            
+
 
             var deletionStatement = "LibraryPackage.DeleteLibrary";
 
-            _dbContext.Connection.Execute(deletionStatement,PassLibraryId(libraryId),commandType: CommandType.StoredProcedure);
+            _dbContext.Connection.Execute(deletionStatement, PassLibraryId(libraryId), commandType: CommandType.StoredProcedure);
         }
 
-        DynamicParameters PassLibraryId(int libraryId) {
+        DynamicParameters PassLibraryId(int libraryId)
+        {
             var parameteres = new DynamicParameters();
             parameteres.Add("id", libraryId, DbType.Int32, ParameterDirection.Input);
 
@@ -60,7 +63,7 @@ namespace Ketabi.Infra.Repositories
         {
             var queryStatement = "LibraryPackage.GetAllLibraries";
 
-            var allLibraries = _dbContext.Connection.Query<Library>(queryStatement,commandType:CommandType.StoredProcedure);
+            var allLibraries = _dbContext.Connection.Query<Library>(queryStatement, commandType: CommandType.StoredProcedure);
 
             return allLibraries.ToList();
 
@@ -71,24 +74,25 @@ namespace Ketabi.Infra.Repositories
             var queryStatement = "LibraryPackage.GetLibraryById";
 
             var requestedLibrary = _dbContext.Connection.
-                Query<Library>(queryStatement,PassLibraryId(id),commandType:CommandType.StoredProcedure).SingleOrDefault();
+                Query<Library>(queryStatement, PassLibraryId(id), commandType: CommandType.StoredProcedure).SingleOrDefault();
 
             return requestedLibrary;
-            
+
         }
 
         public Library GetLibraryByLocation(string lat, string lng)
         {
-           
 
-            var queryStatement = "LibraryPackage.SearchLibraryByLocation";
+
+            var queryStatemen = "LibraryPackage.SearchLibraryByLocation";
 
             var requestedLibrary = _dbContext.Connection.
-                Query<Library>(queryStatement, PassLibraryLocation(lat,lng), commandType: CommandType.StoredProcedure).SingleOrDefault();
+                Query<Library>(queryStatement, PassLibraryLocation(lat, lng), commandType: CommandType.StoredProcedure).SingleOrDefault();
 
             return requestedLibrary;
         }
-        DynamicParameters PassLibraryLocation(string lat, string lng) {
+        DynamicParameters PassLibraryLocation(string lat, string lng)
+        {
             var parameters = new DynamicParameters();
             parameters.Add("lng", lng, DbType.String, ParameterDirection.Input);
             parameters.Add("lat", lat, DbType.String, ParameterDirection.Input);
@@ -100,12 +104,13 @@ namespace Ketabi.Infra.Repositories
             var queryStatement = "LibraryPackage.SearchLibraryByName";
 
             var requestedLibrary = _dbContext.Connection
-                .Query<Library>(queryStatement,PassLibraryName(name),commandType:CommandType.StoredProcedure);
+                .Query<Library>(queryStatement, PassLibraryName(name), commandType: CommandType.StoredProcedure);
 
             return requestedLibrary.SingleOrDefault();
         }
 
-        DynamicParameters PassLibraryName(string name) { 
+        DynamicParameters PassLibraryName(string name)
+        {
             var parameters = new DynamicParameters();
             parameters.Add("libraryName", name, DbType.String, ParameterDirection.Input);
             return parameters;
@@ -116,7 +121,7 @@ namespace Ketabi.Infra.Repositories
             var updateStatement = "LibraryPackage.UpdateLibrary";
 
             _dbContext.Connection.
-                Execute(updateStatement,PassUpdateLibraryParameters(updatedLibrary),commandType:CommandType.StoredProcedure);
+                Execute(updateStatement, PassUpdateLibraryParameters(updatedLibrary), commandType: CommandType.StoredProcedure);
         }
         DynamicParameters PassUpdateLibraryParameters(Library updatedLibrary)
         {
