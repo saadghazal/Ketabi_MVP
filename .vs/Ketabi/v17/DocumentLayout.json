@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{265A2255-E7C9-408E-A386-6845D95FB204}|Ketabi\\Ketabi.csproj|c:\\users\\mohammed ghazal\\desktop\\ketabi project\\ketabi\\ketabi\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{265A2255-E7C9-408E-A386-6845D95FB204}|Ketabi\\Ketabi.csproj|solutionrelative:ketabi\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3453235B-E788-4107-A0D1-41C6F798A657}|Ketabi.Infra\\Ketabi.Infra.csproj|c:\\users\\mohammed ghazal\\desktop\\ketabi project\\ketabi\\ketabi.infra\\repositories\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3453235B-E788-4107-A0D1-41C6F798A657}|Ketabi.Infra\\Ketabi.Infra.csproj|solutionrelative:ketabi.infra\\repositories\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{265A2255-E7C9-408E-A386-6845D95FB204}|Ketabi\\Ketabi.csproj|c:\\users\\mohammed ghazal\\desktop\\ketabi project\\ketabi\\ketabi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A2255-E7C9-408E-A386-6845D95FB204}|Ketabi\\Ketabi.csproj|solutionrelative:ketabi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,20 +11,8 @@
       "RelativeMoniker": "D:0:0:{87AAB6EE-9788-4585-934B-17B230111FD9}|Ketabi.Core\\Ketabi.Core.csproj|solutionrelative:ketabi.core\\ketabi.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3453235B-E788-4107-A0D1-41C6F798A657}|Ketabi.Infra\\Ketabi.Infra.csproj|c:\\users\\mohammed ghazal\\desktop\\ketabi project\\ketabi\\ketabi.infra\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3453235B-E788-4107-A0D1-41C6F798A657}|Ketabi.Infra\\Ketabi.Infra.csproj|solutionrelative:ketabi.infra\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3453235B-E788-4107-A0D1-41C6F798A657}|Ketabi.Infra\\Ketabi.Infra.csproj|c:\\users\\mohammed ghazal\\desktop\\ketabi project\\ketabi\\ketabi.infra\\ketabi.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3453235B-E788-4107-A0D1-41C6F798A657}|Ketabi.Infra\\Ketabi.Infra.csproj|solutionrelative:ketabi.infra\\ketabi.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87AAB6EE-9788-4585-934B-17B230111FD9}|Ketabi.Core\\Ketabi.Core.csproj|c:\\users\\mohammed ghazal\\desktop\\ketabi project\\ketabi\\ketabi.core\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87AAB6EE-9788-4585-934B-17B230111FD9}|Ketabi.Core\\Ketabi.Core.csproj|solutionrelative:ketabi.core\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87AAB6EE-9788-4585-934B-17B230111FD9}|Ketabi.Core\\Ketabi.Core.csproj|c:\\users\\mohammed ghazal\\desktop\\ketabi project\\ketabi\\ketabi.core\\repositories\\ilibraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87AAB6EE-9788-4585-934B-17B230111FD9}|Ketabi.Core\\Ketabi.Core.csproj|solutionrelative:ketabi.core\\repositories\\ilibraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3453235B-E788-4107-A0D1-41C6F798A657}|Ketabi.Infra\\Ketabi.Infra.csproj|c:\\users\\mohammed ghazal\\desktop\\ketabi project\\ketabi\\ketabi.infra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,93 +60,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LibraryController.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\Controllers\\LibraryController.cs",
-              "RelativeDocumentMoniker": "Ketabi\\Controllers\\LibraryController.cs",
-              "ToolTip": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\Controllers\\LibraryController.cs",
-              "RelativeToolTip": "Ketabi\\Controllers\\LibraryController.cs",
-              "ViewState": "AgIAACEAAACAzMzMzMwcwCIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:21:30.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LibraryService.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Services\\LibraryService.cs",
-              "RelativeDocumentMoniker": "Ketabi.Infra\\Services\\LibraryService.cs",
-              "ToolTip": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Services\\LibraryService.cs",
-              "RelativeToolTip": "Ketabi.Infra\\Services\\LibraryService.cs",
-              "ViewState": "AgIAACgAAADAzMzMzMwswC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:17:11.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ILibraryService.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Services\\ILibraryService.cs",
-              "RelativeDocumentMoniker": "Ketabi.Core\\Services\\ILibraryService.cs",
-              "ToolTip": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Services\\ILibraryService.cs",
-              "RelativeToolTip": "Ketabi.Core\\Services\\ILibraryService.cs",
-              "ViewState": "AgIAAA8AAACAmZmZmZkVwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:16:29.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ILibraryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Repositories\\ILibraryRepository.cs",
-              "RelativeDocumentMoniker": "Ketabi.Core\\Repositories\\ILibraryRepository.cs",
-              "ToolTip": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Repositories\\ILibraryRepository.cs",
-              "RelativeToolTip": "Ketabi.Core\\Repositories\\ILibraryRepository.cs",
-              "ViewState": "AgIAAAwAAAAwMzMzMzMywAsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T14:21:04.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LibraryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Repositories\\LibraryRepository.cs",
-              "RelativeDocumentMoniker": "Ketabi.Infra\\Repositories\\LibraryRepository.cs",
-              "ToolTip": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Repositories\\LibraryRepository.cs",
-              "RelativeToolTip": "Ketabi.Infra\\Repositories\\LibraryRepository.cs",
-              "ViewState": "AgIAAEUAAACAZmZmZmYcwIIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T14:20:25.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\Program.cs",
               "RelativeDocumentMoniker": "Ketabi\\Program.cs",
               "ToolTip": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\Program.cs",
               "RelativeToolTip": "Ketabi\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAABgZmZmZmYkwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T14:58:35.545Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "Ketabi.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj",
+              "RelativeDocumentMoniker": "Ketabi.Core\\Ketabi.Core.csproj",
+              "ToolTip": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj",
+              "RelativeToolTip": "Ketabi.Core\\Ketabi.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-05T14:52:14.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DbContext.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Common\\DbContext.cs",
               "RelativeDocumentMoniker": "Ketabi.Infra\\Common\\DbContext.cs",
@@ -178,20 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ketabi.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj",
-              "RelativeDocumentMoniker": "Ketabi.Core\\Ketabi.Core.csproj",
-              "ToolTip": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Ketabi.Core.csproj",
-              "RelativeToolTip": "Ketabi.Core\\Ketabi.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-05T14:52:14.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\appsettings.json",
               "RelativeDocumentMoniker": "Ketabi\\appsettings.json",
@@ -203,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\.gitignore",
               "RelativeDocumentMoniker": "Ketabi.Core\\.gitignore",
@@ -215,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Ketabi.Infra.csproj",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Ketabi.Infra.csproj",
               "RelativeDocumentMoniker": "Ketabi.Infra\\Ketabi.Infra.csproj",
@@ -228,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Ketabi.csproj",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi\\Ketabi.csproj",
               "RelativeDocumentMoniker": "Ketabi\\Ketabi.csproj",
@@ -241,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Infra\\Class1.cs",
               "RelativeDocumentMoniker": "Ketabi.Infra\\Class1.cs",
@@ -249,12 +180,11 @@
               "RelativeToolTip": "Ketabi.Infra\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:38:21.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T14:38:21.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "ModelContext.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Data\\ModelContext.cs",
               "RelativeDocumentMoniker": "Ketabi.Core\\Data\\ModelContext.cs",
@@ -266,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "IDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Common\\IDbContext.cs",
               "RelativeDocumentMoniker": "Ketabi.Core\\Common\\IDbContext.cs",
@@ -278,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "readme.txt",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.90\\readme.txt",
               "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.90\\readme.txt",
@@ -290,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "readme.txt",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\.nuget\\packages\\oracle.manageddataaccess.core\\3.21.90\\readme.txt",
               "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\oracle.manageddataaccess.core\\3.21.90\\readme.txt",
@@ -302,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed Ghazal\\Desktop\\Ketabi Project\\Ketabi\\Ketabi.Core\\Class1.cs",
               "RelativeDocumentMoniker": "Ketabi.Core\\Class1.cs",
