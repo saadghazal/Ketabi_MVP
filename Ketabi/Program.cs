@@ -19,9 +19,11 @@ builder.Services.AddScoped<IDbContext, DbContext>();
 builder.Services.AddScoped<ILibraryRepository, LibraryRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IBookReviewRepository, BookReviewRepository>();
+builder.Services.AddScoped<ICreditCardRepository, CreditCardRepository>();
 builder.Services.AddScoped<ILibraryService, LibraryService>();
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IBookReviewService, BookReviewService>();
+builder.Services.AddScoped<ICreditCardService, CreditCardService>();
 
 var app = builder.Build();
 
