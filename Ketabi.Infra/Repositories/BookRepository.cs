@@ -82,7 +82,6 @@ namespace Ketabi.Infra.Repositories
         {
             var GetBookByIdStatement = "Book_Package.GetBookById";
             var result = _dbContext.Connection.Query<Book>(GetBookByIdStatement, PassBookId(id), commandType: CommandType.StoredProcedure);
-
             return result.FirstOrDefault();
         }
         DynamicParameters PassBookId(int id)
