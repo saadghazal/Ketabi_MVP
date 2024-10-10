@@ -36,6 +36,9 @@ builder.Services.AddScoped<IBorrowedBookService, BorrowedBookService>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 
+builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IAuthorService, AuthorService>();   
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
