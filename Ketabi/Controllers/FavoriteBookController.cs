@@ -18,7 +18,7 @@ namespace Ketabi.Controllers
 
         [HttpGet]
         [Route("user-favorites/{userId}")]
-        public List<Favoritebook> GetUserFavorites(int userId) {
+        public Task<List<Favoritebook>> GetUserFavorites(int userId) {
             return _favoriteBookService.GetUserFavoriteBooks(userId);
         }
 

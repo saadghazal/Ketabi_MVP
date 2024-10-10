@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using Ketabi.Core.Common;
 using Ketabi.Core.Data;
+using Ketabi.Core.DTO;
 using Ketabi.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -29,14 +30,27 @@ namespace Ketabi.Infra.Repositories
 
         }
 
-        public List<Favoritebook> GetUserFavoriteBooks(int userId)
+        public async Task<List<Favoritebook>> GetUserFavoriteBooks(int userId)
         {
             var queryStatement = "FavoriteBookPackage.GetAllUserFavoriteBooks";
 
-            var userFavoriteBooks = _dbContext.Connection
-                .Query<Favoritebook>(queryStatement
-                ,PassUserId(userId),commandType:CommandType.StoredProcedure);
-            return userFavoriteBooks.ToList();
+            var favoriteBooks = await _dbContext.Connection.QueryAsync<Favoritebook, Book, Favoritebook>(
+                  queryStatement,
+                  (favoriteBook, book) =>
+                  {
+                      favoriteBook.Book = book;
+                      
+                      return favoriteBook;
+                  },
+                  splitOn: "Bookid",
+                  param: PassUserId(userId),
+                  commandType: CommandType.StoredProcedure
+              );
+
+            
+
+
+            return favoriteBooks.ToList();
         }
 
         public void RemoveFromFavorites(int bookId, int userId)

@@ -23,7 +23,7 @@ namespace Ketabi.Infra.Services
             _favoriteBookRepository.AddToFavorites(bookId, userId);
         }
 
-        public List<Favoritebook> GetUserFavoriteBooks(int userId)
+        public Task<List<Favoritebook>> GetUserFavoriteBooks(int userId)
         {
             return _favoriteBookRepository.GetUserFavoriteBooks(userId);
         }

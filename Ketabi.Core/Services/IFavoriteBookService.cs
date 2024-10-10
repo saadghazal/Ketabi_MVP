@@ -9,7 +9,7 @@ namespace Ketabi.Core.Services
 {
     public interface IFavoriteBookService
     {
-        List<Favoritebook> GetUserFavoriteBooks(int userId);
+        Task<List<Favoritebook>> GetUserFavoriteBooks(int userId);
 
         void AddToFavorites(int bookId, int userId);
 
