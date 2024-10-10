@@ -42,6 +42,10 @@ builder.Services.AddScoped<IAuthorService, AuthorService>();
 builder.Services.AddScoped<IFavoriteBookRepository, FavoriteBookRepository>();
 builder.Services.AddScoped<IFavoriteBookService, FavoriteBookService>();
 
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

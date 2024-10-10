@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Ketabi.Core.DTO
 {
-    public class FavoriteBookDTO
+    public class UserDTO
     {
-        public decimal FavoriteBookId { get; set; }
-        public Book FavoriteBook { get; set; }
+        public User UserData { get; set; }
+        public Login LoginData { get; set; }
     }
 }
