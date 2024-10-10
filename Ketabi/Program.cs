@@ -1,3 +1,4 @@
+using Ketabi;
 using Ketabi.Core.Common;
 using Ketabi.Core.Repositories;
 using Ketabi.Core.Services;
@@ -15,12 +16,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//Repositories
+
+builder.Services.AddScoped<Helpers>();
+
 builder.Services.AddScoped<IDbContext, DbContext>();
 builder.Services.AddScoped<ILibraryRepository, LibraryRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IBookReviewRepository, BookReviewRepository>();
 builder.Services.AddScoped<ICreditCardRepository, CreditCardRepository>();
+
 builder.Services.AddScoped<IBorrowedBookRepository, BorrowedBookRepository>();
 //Services
 builder.Services.AddScoped<ILibraryService, LibraryService>();
@@ -28,6 +32,9 @@ builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IBookReviewService, BookReviewService>();
 builder.Services.AddScoped<ICreditCardService, CreditCardService>();
 builder.Services.AddScoped<IBorrowedBookService, BorrowedBookService>();
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 var app = builder.Build();
 
