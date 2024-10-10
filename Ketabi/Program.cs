@@ -37,7 +37,10 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
-builder.Services.AddScoped<IAuthorService, AuthorService>();   
+builder.Services.AddScoped<IAuthorService, AuthorService>();
+
+builder.Services.AddScoped<IFavoriteBookRepository, FavoriteBookRepository>();
+builder.Services.AddScoped<IFavoriteBookService, FavoriteBookService>();
 
 var app = builder.Build();
 
